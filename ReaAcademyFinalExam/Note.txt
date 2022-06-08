@@ -1,0 +1,6 @@
+First of all I want to say thanks for everything you've done for us.
+
+In project because of stress I misunderstood most of parts because of stressand I tried my best to finish a project that at least can do 
+what you asked from us.In the codes, there are methods for Category and Tags but I couldn't make them work on page. In Index.cshtml, 
+I was getting an error and couldn't solve it. When the code part removed it works but code lines are not wrong.
+

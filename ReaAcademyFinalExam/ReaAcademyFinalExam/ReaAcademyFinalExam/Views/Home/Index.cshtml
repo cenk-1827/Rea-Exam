@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ReaAcademyFinalExam.Models.Notes>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            @foreach(var item in Model)
+            {
+                <div class="post-preview">
+                    <a asp-action="post" asp-route-id="@item.noteID">
+                        <h2 class="post-title">
+                            @item.noteName
+                        </h2>
+                        <h3 class="post-subtitle">
+                            @item.noteContent
+                        </h3>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
